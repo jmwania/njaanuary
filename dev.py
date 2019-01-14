@@ -5,7 +5,7 @@ class Developer:
         self.age = age
         self.salary = salary
 
-employee = 'Josphat mwania'
+Josphat mwania = Developer
 salary = 80,oooo
 age = 25
 

@@ -1,14 +1,21 @@
-class Developer:
-    pass
+class Human:
+    def __init__(self, n, o):
+        self.name = n 
+        self.occupation = o
+    
+    def do_work(self):
+        if self.occupation == "tennis player":
+            print(self.name, "plays tennis")
 
-    def employee(self, name, age, salary):
-        self.age = age
-        self.salary = salary
+        elif self.occupation == "actor":
+            print(self.name, "shoots film")
+    def speaks(self):
+        print(self.name, "says how are you")
 
-employee = 'Josphat mwania'
-salary = 80,oooo
-age = 25
+mwania = Human("mwania josphat", "actor")
+mwania.do_work()
+mwania.speaks()
 
-self.name()
-self.age()
-self.salary()
+cliff = Human("Cliff Katiku", "Tennis player")
+cliff.speaks()
+cliff.do_work()
